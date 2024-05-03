@@ -15,6 +15,7 @@ model User {
   id        String    @id @default(cuid())
   name      String    @default("")
   foo       String    @default("")
+  bar       String    @default("")
   email     String    @unique @default("")
   password  String
   posts     Post[]    @relation("Post_author")

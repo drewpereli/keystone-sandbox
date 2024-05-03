@@ -41,6 +41,7 @@ export const lists: Lists = {
       name: text({ validation: { isRequired: true } }),
 
       foo: text(),
+      bar: text(),
 
       email: text({
         validation: { isRequired: true },
