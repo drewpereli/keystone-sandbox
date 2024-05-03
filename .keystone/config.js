@@ -43,7 +43,6 @@ var lists = {
       //   if no name is provided, an error will be displayed
       name: (0, import_fields.text)({ validation: { isRequired: true } }),
       foo: (0, import_fields.text)(),
-      bar: (0, import_fields.text)(),
       email: (0, import_fields.text)({
         validation: { isRequired: true },
         // by adding isIndexed: 'unique', we're saying that no user can have the same
